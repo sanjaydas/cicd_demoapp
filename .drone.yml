@@ -13,6 +13,6 @@ publish:
     docker:
         repo: $$sanjaydas/cicd_demoapp
         tag: latest
-        username: $$sanjaydas
-        password: $$Nitai1Gaur1
-        email: $$sanjadas@cisco.com
+        username: $$DOCKER_USERNAME
+        password: $$DOCKER_PASSWORD
+        email: $$DOCKER_EMAIL
